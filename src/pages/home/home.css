@@ -1,0 +1,66 @@
+.homeContainer {
+    border: 5px solid orange;
+    width: 85%;
+    margin-left: 100px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 25px -4px blue;
+}
+
+.homeImgContainer {
+    height: 550px;
+   
+}
+
+.homeImg {
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+.homeDetails {
+    
+    position: absolute;
+    padding: 5rem;
+    bottom: 0px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-image: linear-gradient(rgb(0,0,0,0), rgb(0,0,0,1));
+    opacity: 1;
+    transition: opacity .3s;
+}
+
+.homeDetails:hover {
+    opacity: 1;
+}
+
+.homeTitle {
+    font-weight: 900;
+    font-size: 4rem;
+    margin-bottom: 0.4rem;
+    text-align: left;
+}
+
+.homeRuntime {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.homeRating {
+    margin-left: 3rem;
+}
+
+.homeDesc {
+    font-style: italic;
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+    display: flex;
+    text-align: left;
+    width: 50%;
+    border: 2px solid white;
+    padding: 8px;
+    
+}

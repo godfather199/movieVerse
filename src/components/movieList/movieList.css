@@ -1,0 +1,20 @@
+.movieList {
+    border: 5px solid orange;
+    background-color: lavenderblush;
+    margin: 30px 70px;
+    width: 85%;
+    padding: 0 3rem 3rem 3rem;
+    box-shadow: 0px 0px 25px -6px black;
+}
+
+.listTitle {
+font-size: 1.75rem;
+margin:  2.5rem;
+color: brown;
+}
+
+.listCards {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+}
